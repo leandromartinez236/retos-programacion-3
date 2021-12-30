@@ -6,3 +6,12 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*vh significa que toma todo la altura de la pagina "h" de height*/
+}
